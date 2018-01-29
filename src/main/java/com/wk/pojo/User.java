@@ -4,44 +4,38 @@ package com.wk.pojo;
  * Created by WK on 2018/1/25.
  */
 public class User {
-    private int userId;
-    private String user_name;
-    private int age;
+    private Integer id;
 
-    public int getUserId() {
-        return userId;
-    }
+    private String userName;
+
+    private String password;
 
     @Override
     public String toString() {
         return "User{" +
-                "userId=" + userId +
-                ", user_name='" + user_name + '\'' +
-                ", age=" + age +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
+                ", age=" + age +
                 '}';
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    private Integer age;
+
+    public Integer getId() {
+        return id;
     }
 
-    private String password;
-
-    public String getUser_name() {
-        return user_name;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public String getUserName() {
+        return userName;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getPassword() {
@@ -51,5 +45,17 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+
+
+
 
 }
