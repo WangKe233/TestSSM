@@ -5,7 +5,7 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
     <context-param>
-        <param-name></param-name>
-        <param-value></param-value>
+        <param-name />
+        <param-value />
     </context-param>
 </web-app>
