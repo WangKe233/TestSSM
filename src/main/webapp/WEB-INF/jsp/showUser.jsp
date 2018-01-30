@@ -5,12 +5,12 @@
   Time: 18:59
   To change this template use File | Settings | File Templates.
 --%>
-<%@page language="java" import="java.util" pageEncoding="UTF-8" %>
+<%@page language="java" import="java.util.*" pageEncoding="UTF-8" %>
 <html>
-<head>
+  <head>
     <title>测试</title>
-</head>
-<body>
-  ${user.userName}
-</body>
+  </head>
+  <body>
+    ${user.userName}
+  </body>
 </html>
