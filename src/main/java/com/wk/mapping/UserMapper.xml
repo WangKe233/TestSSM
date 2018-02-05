@@ -13,8 +13,7 @@
     <select id = "selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
         SELECT
         <include refid="Base_Column_List"/>
-        from user_t
-        WHERE id = #{id,jdbcType=INTEGER}
+        from user_t WHERE id = #{id,jdbcType=INTEGER}
     </select>
     <delete id = "deleteByPrimaryKey" parameterType="com.wk.pojo.User">
         DELETE from user_t
